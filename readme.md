@@ -42,7 +42,7 @@ The 3-layer model showed superior generalization. While the 2-layer model reache
 | **3-Layer CNN** | **99.98%** | **96.01%** |
 
 ### Performance Comparison
-![Model Comparison](Comparison 2 layers vs 3 layers.png)
+![Model Comparison](Comparison%202%20layers%20vs%203%20layers.png)
 *Figure 1: Comparison of Validation Accuracy between the 2-layer and 3-layer architectures.*
 
 ## 🚀 How to Use
