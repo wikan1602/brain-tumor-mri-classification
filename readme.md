@@ -8,6 +8,19 @@ The dataset used in this project is the **Brain Tumor MRI Dataset** sourced from
 - **Content**: 7,000+ MRI images (Glioma, Meningioma, Pituitary, and Healthy).
 - **Format**: JPG images organized by tumor type.
 
+## 📁 Project Structure
+To run this notebook, organize your local directory as follows:
+```
+.
+├── brain_tumor_classification.ipynb
+└── dataset/
+    └── brain_tumor_dataset/
+        ├── glioma/
+        ├── healthy/
+        ├── meningioma/
+        └── pituitary/
+```
+
 ## 🛠️ Methodology
 I performed an **Ablation Study** to find the best model architecture, comparing a shallow CNN against a deeper one to see how they handle the complexity of MRI features.
 
@@ -29,7 +42,7 @@ The 3-layer model showed superior generalization. While the 2-layer model reache
 | **3-Layer CNN** | **99.98%** | **96.01%** |
 
 ### Performance Comparison
-![Model Comparison](download%20%281%29.png)
+![Model Comparison](Comparison 2 layers vs 3 layers.png)
 *Figure 1: Comparison of Validation Accuracy between the 2-layer and 3-layer architectures.*
 
 ## 🚀 How to Use
